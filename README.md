@@ -2,6 +2,10 @@
 
 A _styled_-like styling solution that lets you write `@scope`'d css.
 
+> **For now, avoid using this for components that have lots of instances**  
+> This is because we mount the styles along with each component.  
+> This is best used as containers, but you can style children using nested css
+
 ### [caniuse](https://caniuse.com/mdn-css_at-rules_scope)
 
 ## Simple example
