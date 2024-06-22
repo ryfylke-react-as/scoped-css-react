@@ -29,7 +29,7 @@ export default function App() {
   );
 }
 /**
-<div>
+<main>
     <style>
     @scope {
         :scope {
@@ -44,7 +44,7 @@ export default function App() {
     <h1>
         <span>Hey</span> there!
     </h1>
-</div>
+</main>
 
 **/
 ```
