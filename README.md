@@ -14,7 +14,7 @@ const Container = createScoped("main")`
         background: black;
     }
 
-    a {
+    span {
         color: red;
     }
 `;
@@ -28,6 +28,25 @@ export default function App() {
     </Container>
   );
 }
+/**
+<div>
+    <style>
+    @scope {
+        :scope {
+            background: black;
+        }
+    
+        span {
+            color: red;
+        }
+    }
+    </style>
+    <h1>
+        <span>Hey</span> there!
+    </h1>
+</div>
+
+**/
 ```
 
 ## Use with other components
